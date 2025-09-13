@@ -6,27 +6,34 @@ for i in range(len(arr)):
     print(arr[i],end=" ")
 
 print()
-arr.pop(3)                #To remove elements by using index.
+ #To remove elements by using index.
+arr.pop(3)               
 print(arr)        
 
-arr.remove(5)             #To remove by using elements in input.
+ #To remove by using elements in input.
+arr.remove(5)            
 print(arr)
 
-arr.insert(0,2)           #To insert element by using index.
+ #To insert element by using index.
+arr.insert(0,2)          
 print(arr)              
 
-arr.append(10)            #To insert element at the end of the list.
+#To insert element at the end of the list.
+arr.append(10)          
 print(arr)
 
-arr.index(10)             #To know the index of the element.
+#To know the index of the element. 
+arr.index(10)                
 print(arr)
 
-arr.sort()                #To arrange a elements assending order.
+ #To arrange a elements Ascending order.
+arr.sort()               
 print(arr)
 
-arr.sort(reverse=True)    #To arrange a elements in desending order.
+ #To arrange a elements in Descending order.
+arr.sort(reverse=True)   
 print(arr)
 
-print(arr[0:6:2])         #sliceing.
-
-print(arr[-1:-5:-3])      #slicing.
+# Slicing
+print(arr[0:6:2])        
+print(arr[-1:-5:-3])    
