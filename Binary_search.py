@@ -1,3 +1,4 @@
+#by using while loop
 pos=-1
 def search(arr,key):
     l=0
@@ -18,12 +19,12 @@ key=int(input())
 if search(arr,key):
     print("Found at index: ",pos)
 else:
-    print("not found")
+    print("Not found")
 
 
 
 
-#by using foor loop
+#by using for loop
 pos=-1
 def search(arr,key):
     l=0
@@ -44,4 +45,5 @@ key=int(input())
 if search(arr,key):
     print("Found at index: ",pos)
 else:
-    print("not found")
+
+    print("Not found")
